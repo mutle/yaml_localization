@@ -11,6 +11,12 @@ If it encounters missing translations, it will dump them into RAILS_ROOT/lang/ad
 Example
 =======
 
+Using a language:
+
+YamlLocalization.lang = 'en'
+
+YAML example:
+
 translations:
   - 'title':
     de: 'Titel'
