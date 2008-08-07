@@ -1,0 +1,20 @@
+YamlLocalization
+===================
+
+This is a plugin based on the rails localization plugin.
+
+It uses YAML files (in RAILS_ROOT/lang/*.yml) instead of ruby code.
+
+If it encounters missing translations, it will dump them into RAILS_ROOT/lang/add_me.yaml, unless you're running in production.
+
+
+Example
+=======
+
+translations:
+  - 'title':
+    de: 'Titel'
+    en: 'Title'
+
+
+Copyright (c) 2008 Mutwin Kraus, released under the MIT license
